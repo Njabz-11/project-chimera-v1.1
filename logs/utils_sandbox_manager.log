@@ -1,0 +1,1 @@
+2025-07-12 18:29:42 | utils.sandbox_manager | ERROR | ❌ Failed to initialize Docker: Error while fetching server API version: Not supported URL scheme http+docker | D:\Augment code projects\Project-Chimera-Dev\utils\sandbox_manager.py:45

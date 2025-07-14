@@ -1,0 +1,23 @@
+{
+  "report_id": "ac8708f1-dceb-439c-9982-2ca5cfb64242",
+  "timestamp": "2025-07-12T18:29:42.358803",
+  "agent_name": "TEST_AGENT",
+  "job_id": null,
+  "error_category": "unknown_error",
+  "error_severity": "medium",
+  "exception_type": "ZeroDivisionError",
+  "exception_message": "division by zero",
+  "full_traceback": "Traceback (most recent call last):\n  File \"D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py\", line 266, in test_code_fix_generation\n    exec(failing_code)\n    ~~~~^^^^^^^^^^^^^^\n  File \"<string>\", line 5, in <module>\n  File \"<string>\", line 3, in divide_numbers\nZeroDivisionError: division by zero\n",
+  "failing_code_snippet": "# Could not read source file: <string>",
+  "failing_function": "divide_numbers",
+  "failing_file": "<string>",
+  "failing_line_number": 3,
+  "context_data": {
+    "failing_code": "\ndef divide_numbers(a, b):\n    return a / b  # This will fail with ZeroDivisionError\n\nresult = divide_numbers(10, 0)\n"
+  },
+  "original_goal": "Test code fix generation",
+  "retry_count": 0,
+  "fix_attempts": [],
+  "escalated": false,
+  "resolved": false
+}

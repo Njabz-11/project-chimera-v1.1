@@ -1,0 +1,31 @@
+2025-07-12 11:41:57 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:41:57 | tools.memory_bank | INFO | 📚 Created conversation collection for lead 999 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:65
+2025-07-12 11:42:54 | tools.memory_bank | INFO | 💾 Stored message a3eda22b-4e5a-4966-9773-2c37ead5a7fe for lead 999 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:117
+2025-07-12 11:42:54 | tools.memory_bank | INFO | 🔍 Retrieved 1 messages for lead 999 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:168
+2025-07-12 11:42:54 | tools.memory_bank | INFO | 🔍 Found 1 relevant messages for query: outreach | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:195
+2025-07-12 11:42:55 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:42:55 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:42:55 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:45:14 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:45:14 | tools.memory_bank | ERROR | ❌ Failed to create collection for lead 999: Collection [lead_999_conversations] already exists | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:69
+2025-07-12 11:45:15 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:45:15 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:45:15 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:47:30 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:47:30 | tools.memory_bank | ERROR | ❌ Failed to create collection for lead 999: Collection [lead_999_conversations] already exists | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:69
+2025-07-12 11:47:32 | tools.memory_bank | INFO | 💾 Stored message 39b60986-48fc-4887-8e7a-67de71a10ad2 for lead 999 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:117
+2025-07-12 11:47:32 | tools.memory_bank | INFO | 🔍 Retrieved 2 messages for lead 999 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:168
+2025-07-12 11:47:33 | tools.memory_bank | INFO | 🔍 Found 2 relevant messages for query: outreach | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:195
+2025-07-12 11:47:33 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:47:33 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:47:33 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:53:33 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 11:53:33 | tools.memory_bank | INFO | 📚 Created conversation collection for lead 888 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:65
+2025-07-12 11:53:34 | tools.memory_bank | INFO | 💾 Stored message 8718a8c6-901a-4143-a352-ea086fda6b76 for lead 888 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:117
+2025-07-12 11:53:34 | tools.memory_bank | INFO | 🔍 Retrieved 1 messages for lead 888 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:168
+2025-07-12 11:53:34 | tools.memory_bank | INFO | 🔍 Found 1 relevant messages for query: health check | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:195
+2025-07-12 12:03:05 | tools.memory_bank | INFO | ✅ Memory Bank initialized successfully | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:42
+2025-07-12 12:03:05 | tools.memory_bank | INFO | 📚 Created conversation collection for lead 777 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:65
+2025-07-12 12:03:06 | tools.memory_bank | INFO | 💾 Stored message 78429e46-7f6c-4b78-89de-89a5ca64bf13 for lead 777 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:117
+2025-07-12 12:03:06 | tools.memory_bank | INFO | 🔍 Retrieved 1 messages for lead 777 | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:168
+2025-07-12 12:03:06 | tools.memory_bank | INFO | 🔍 Found 1 relevant messages for query: final test | D:\Augment code projects\Project-Chimera-Dev\tools\memory_bank.py:195

@@ -1,0 +1,31 @@
+{
+  "report_id": "082c5ac7-13c9-42d8-aedb-edbdf7f1cc76",
+  "timestamp": "2025-07-12T18:29:42.332598",
+  "agent_name": "TEST_AGENT",
+  "job_id": null,
+  "error_category": "unknown_error",
+  "error_severity": "medium",
+  "exception_type": "ImportError",
+  "exception_message": "Test import error",
+  "full_traceback": "Traceback (most recent call last):\n  File \"D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py\", line 222, in test_technician_diagnosis\n    raise ImportError(\"Test import error\")\nImportError: Test import error\n",
+  "failing_code_snippet": "    async def test_technician_diagnosis(self) -> bool:\n        \"\"\"Test TechnicianAgent error diagnosis\"\"\"\n        try:\n            # Create a diagnostic report\n            try:\n                raise ImportError(\"Test import error\")\n            except Exception as e:\n                report = error_handler.create_diagnostic_report(\n                    exception=e,\n                    agent_name=\"TEST_AGENT\",\n                    context_data={\"test\": \"diagnosis\"},\n",
+  "failing_function": "test_technician_diagnosis",
+  "failing_file": "D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py",
+  "failing_line_number": 222,
+  "context_data": {
+    "test": "diagnosis",
+    "diagnosis": {
+      "auto_repairable": false,
+      "confidence": 0.0,
+      "repair_strategy": "Analysis failed",
+      "risk_assessment": "high",
+      "complexity": "complex",
+      "reasoning": "Analysis failed due to: Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "original_goal": "Test technician diagnosis",
+  "retry_count": 0,
+  "fix_attempts": [],
+  "escalated": false,
+  "resolved": false
+}

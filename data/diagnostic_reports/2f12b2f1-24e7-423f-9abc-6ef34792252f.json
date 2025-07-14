@@ -1,0 +1,23 @@
+{
+  "report_id": "2f12b2f1-24e7-423f-9abc-6ef34792252f",
+  "timestamp": "2025-07-12T18:29:42.325031",
+  "agent_name": "TEST_AGENT",
+  "job_id": null,
+  "error_category": "network_error",
+  "error_severity": "medium",
+  "exception_type": "ConnectionError",
+  "exception_message": "Test network error",
+  "full_traceback": "Traceback (most recent call last):\n  File \"D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py\", line 159, in test_error_routing\n    raise ConnectionError(\"Test network error\")\nConnectionError: Test network error\n",
+  "failing_code_snippet": "    async def test_error_routing(self) -> bool:\n        \"\"\"Test error routing system\"\"\"\n        try:\n            # Create a test diagnostic report\n            try:\n                raise ConnectionError(\"Test network error\")\n            except Exception as e:\n                report = error_handler.create_diagnostic_report(\n                    exception=e,\n                    agent_name=\"TEST_AGENT\",\n                    context_data={\"test\": \"routing\"},\n",
+  "failing_function": "test_error_routing",
+  "failing_file": "D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py",
+  "failing_line_number": 159,
+  "context_data": {
+    "test": "routing"
+  },
+  "original_goal": "Test error routing",
+  "retry_count": 0,
+  "fix_attempts": [],
+  "escalated": false,
+  "resolved": false
+}

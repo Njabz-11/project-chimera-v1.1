@@ -1,0 +1,25 @@
+{
+  "report_id": "8f5b3fa4-aff8-4a0b-a43d-a6a6cc37bbca",
+  "timestamp": "2025-07-12T18:29:42.364280",
+  "agent_name": "TEST_AGENT",
+  "job_id": null,
+  "error_category": "unknown_error",
+  "error_severity": "medium",
+  "exception_type": "SystemError",
+  "exception_message": "Critical system error",
+  "full_traceback": "Traceback (most recent call last):\n  File \"D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py\", line 339, in test_error_escalation\n    raise SystemError(\"Critical system error\")\nSystemError: Critical system error\n",
+  "failing_code_snippet": "    async def test_error_escalation(self) -> bool:\n        \"\"\"Test error escalation to human intervention\"\"\"\n        try:\n            # Create a report for escalation\n            try:\n                raise SystemError(\"Critical system error\")\n            except Exception as e:\n                report = error_handler.create_diagnostic_report(\n                    exception=e,\n                    agent_name=\"TEST_AGENT\",\n                    context_data={\"test\": \"escalation\"},\n",
+  "failing_function": "test_error_escalation",
+  "failing_file": "D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py",
+  "failing_line_number": 339,
+  "context_data": {
+    "test": "escalation",
+    "escalation_reason": "Test escalation",
+    "escalation_timestamp": 1752337782.3810105
+  },
+  "original_goal": "Test error escalation",
+  "retry_count": 0,
+  "fix_attempts": [],
+  "escalated": true,
+  "resolved": false
+}

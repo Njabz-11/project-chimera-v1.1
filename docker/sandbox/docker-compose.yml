@@ -1,0 +1,30 @@
+# Project Chimera - Sandbox Docker Compose Configuration
+version: '3.8'
+
+services:
+  chimera-sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chimera-sandbox:latest
+    container_name: chimera-sandbox
+    networks:
+      - none  # No network access for security
+    mem_limit: 128m
+    cpus: 0.5
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:noexec,nosuid,size=50m
+    volumes:
+      - /dev/null:/dev/null:ro
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    user: "1000:1000"
+    restart: "no"
+    
+networks:
+  none:
+    driver: none

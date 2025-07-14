@@ -1,0 +1,14 @@
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: llm_error_high -> auto_repair | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: llm_error_medium -> retry_with_backoff | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: api_error_medium -> retry_with_backoff | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: api_error_high -> escalate_immediate | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: network_error_medium -> retry_with_backoff | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: database_error_high -> escalate_immediate | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: browser_error_medium -> auto_repair | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: browser_error_high -> restart_component | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: email_error_medium -> retry_with_backoff | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: memory_error_medium -> auto_repair | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: validation_error_low -> auto_repair | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: system_error_critical -> escalate_immediate | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | DEBUG | Added error route: unknown_error_medium -> auto_repair | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:164
+2025-07-12 18:29:42 | utils.error_router | INFO | 🔄 Scheduling retry for 2f12b2f1-24e7-423f-9abc-6ef34792252f with 1.0s delay | D:\Augment code projects\Project-Chimera-Dev\utils\error_router.py:259

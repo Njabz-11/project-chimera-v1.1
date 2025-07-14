@@ -1,0 +1,23 @@
+{
+  "report_id": "cd4ee802-5b48-45cc-81d4-5ea9006b63d4",
+  "timestamp": "2025-07-12T18:29:42.294769",
+  "agent_name": "TEST_AGENT",
+  "job_id": "test_job_123",
+  "error_category": "validation_error",
+  "error_severity": "low",
+  "exception_type": "ValueError",
+  "exception_message": "Test error for diagnostic report",
+  "full_traceback": "Traceback (most recent call last):\n  File \"D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py\", line 96, in test_error_handler_creation\n    raise ValueError(\"Test error for diagnostic report\")\nValueError: Test error for diagnostic report\n",
+  "failing_code_snippet": "    async def test_error_handler_creation(self) -> bool:\n        \"\"\"Test diagnostic report creation\"\"\"\n        try:\n            # Create a test exception\n            try:\n                raise ValueError(\"Test error for diagnostic report\")\n            except Exception as e:\n                # Create diagnostic report\n                report = error_handler.create_diagnostic_report(\n                    exception=e,\n                    agent_name=\"TEST_AGENT\",\n",
+  "failing_function": "test_error_handler_creation",
+  "failing_file": "D:\\Augment code projects\\Project-Chimera-Dev\\test_phase5.py",
+  "failing_line_number": 96,
+  "context_data": {
+    "test": "data"
+  },
+  "original_goal": "Test error handling",
+  "retry_count": 0,
+  "fix_attempts": [],
+  "escalated": false,
+  "resolved": false
+}
