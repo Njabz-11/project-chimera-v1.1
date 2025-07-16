@@ -1,367 +1,193 @@
-# 🤖 Project Chimera Enterprise - Autonomous Business Operations Platform
+# Project Chimera Enterprise - Autonomous Business Operations Platform
 
-**Enterprise-Grade Digital Workforce with Advanced Security** 🔐
-*The Complete Autonomous Business Operations Platform*
+A production-ready, multi-tenant, autonomous business operations platform powered by AI agents.
 
-## 🚦 Current Status: Enterprise Security Implementation Complete ✅
+## 🎯 Overview
 
-**Latest Update**: Enterprise security features implemented with JWT authentication, role-based access control, and production-ready architecture.
+Project Chimera Enterprise is an advanced autonomous business operations platform that leverages specialized AI agents to handle the complete business pipeline from lead generation to deal closure and fulfillment. The system operates as a deployable, autonomous business engine with enterprise-grade security, monitoring, and multi-tenant architecture.
 
-### ✅ Enterprise Security Features
-- **JWT Authentication**: Secure token-based authentication with access and refresh tokens
-- **Role-Based Access Control**: Admin, Client, Agent, and Viewer roles with granular permissions
-- **Password Security**: BCrypt hashing with strength validation and failed login protection
-- **Rate Limiting**: Configurable request throttling and brute force protection
-- **CORS & Host Security**: Environment-specific security configurations
-- **Multi-Tenant Architecture**: User-scoped data access and mission isolation
-- **Admin Dashboard**: Comprehensive system management and user administration
-- **Production Ready**: Enterprise-grade security suitable for production deployment
+## 🤖 The Ten Agents
 
-### ✅ Core Platform Features (All Phases Complete)
-- **Email Service Integration**: Google OAuth2 Gmail integration with secure token management
-- **Memory Bank**: ChromaDB vector database for conversation storage and retrieval
-- **Communicator Agent (HERALD)**: Automated personalized first-touch outreach emails
-- **Closer Agent (DIPLOMAT)**: RAG-powered conversation handling and response generation
-- **Email Polling**: Automatic monitoring for new emails with lead matching
-- **Conversation Dashboard**: Real-time email and conversation management interface
-- **Complete Workflow**: Lead generation → Outreach → Conversation → Response automation
-- **Content Generation**: 30-day content calendars and brand authority building
-- **Fulfillment System**: Both internal and external project completion workflows
+1. **MAESTRO (Orchestrator)** - Central nervous system and state machine
+2. **ARCHITECT (Strategist)** - Processes client input into actionable mission briefings  
+3. **SCOUT (Prospector)** - Autonomous lead generation and qualification
+4. **LOREWEAVER (Bard)** - Content generation and brand authority building
+5. **HERALD (Communicator)** - Personalized first-contact outreach
+6. **DIPLOMAT (Closer)** - Reply management and deal closure
+7. **QUARTERMASTER (Dispatcher)** - External fulfillment management
+8. **ARTIFICER (Creator)** - Internal digital product creation
+9. **WRENCH (Technician)** - Error detection and auto-repair
+10. **AEGIS (Guardian)** - Ethical and safety checkpoint
 
-## 🚀 Enterprise Quick Start
+## 🛠 Technology Stack
 
-### 1. Install Enterprise Dependencies
-```bash
-# Activate virtual environment
-.\chimera_env\Scripts\activate
-
-# Install enterprise security features
-python install_enterprise_deps.py
-```
-
-### 2. Configure Security Settings
-```bash
-# Copy environment template
-cp .env.template .env
-
-# Edit .env file - CRITICAL: Change SECRET_KEY for production!
-```
-
-### 3. Setup Admin User
-```bash
-# Create initial admin user
-python setup_admin.py
-```
-
-### 4. Start Enterprise Server
-```bash
-python main.py
-```
-
-### 5. Access Enterprise Features
-- **API Documentation**: http://localhost:8000/docs
-- **Dashboard**: http://localhost:8501
-- **Admin Panel**: Use admin credentials to access admin endpoints
-
-## 🎯 Project Overview
-
-Project Chimera Enterprise is an Autonomous Business Operations Platform with enterprise-grade security designed for businesses of all sizes. It automatically finds leads on the web, talks to them, nurtures them, qualifies them, and sends invoices to close deals - all without human intervention and with complete security and user management.
-
-### The Ten Agents
-
-1. **MAESTRO** (Orchestrator) - Central nervous system and state machine
-2. **ARCHITECT** (Strategist) - Mission briefing processor
-3. **SCOUT** (Prospector) - Lead finder and qualifier
-4. **LOREWEAVER** (Bard) - Content generator and brand authority builder
-5. **HERALD** (Communicator) - First-contact specialist
-6. **DIPLOMAT** (Closer) - Reply handler and deal closer
-7. **QUARTERMASTER** (Dispatcher) - External fulfillment manager
-8. **ARTIFICER** (Creator) - Internal product/service creator
-9. **WRENCH** (Technician) - Error detection and repair specialist
-10. **AEGIS** (Guardian) - Ethical and safety checkpoint
-
-## 🏗️ Phase 1: Local Prototype - COMPLETED ✅
-
-This phase creates a running, locally-hosted shell of the application for development and testing.
-
-### ✅ Completed Features
-
-- ✅ **FastAPI Server**: Complete with WebSocket real-time logging and REST API endpoints
-- ✅ **Database System**: SQLite database with full schema for missions, leads, conversations, and agent activities
-- ✅ **Agent Architecture**: Base agent framework with job queue system and all 10 agent skeleton classes
-- ✅ **Orchestrator (MAESTRO)**: Central nervous system managing mission states and agent coordination
-- ✅ **Database Manager**: Full CRUD operations with async SQLite support
-- ✅ **Centralized Logging**: Structured logging system with file and console output
-- ✅ **Mission Management**: Complete workflow for creating and managing business missions
-- ✅ **System Integration**: All components working together with proper error handling
-
-### 🛠️ Technology Stack
-
-- **Language**: Python 3.11+
-- **Backend**: FastAPI + Uvicorn
-- **Database**: SQLite with aiosqlite (async support)
-- **Logging**: Custom ChimeraLogger with structured output
-- **Environment**: python-dotenv for configuration
-- **API Documentation**: Auto-generated with FastAPI/OpenAPI
+- **Backend**: FastAPI with Python 3.11+
+- **Frontend**: Streamlit dashboard
+- **Database**: SQLite (development) / PostgreSQL (production)
+- **Vector Database**: ChromaDB for conversation memory
+- **Browser Automation**: Playwright
+- **LLM Integration**: OpenAI GPT-4, Anthropic Claude
+- **Authentication**: JWT with bcrypt, enterprise security
+- **Monitoring**: Prometheus metrics, health checks
+- **Deployment**: Docker with docker-compose
 
 ## 🚀 Quick Start
 
-### Prerequisites
-
-- Python 3.11 or higher
-- Git (optional)
-
-### Installation & Setup
-
-1. **Navigate to Project Directory**
-   ```bash
-   cd Project-Chimera-Dev
-   ```
-
-2. **Activate Virtual Environment**
-   ```bash
-   # Windows
-   .\chimera_env\Scripts\activate
-   ```
-
-3. **Verify Dependencies** (already installed)
-   ```bash
-   pip list
-   ```
-
-4. **Start the System**
-   ```bash
-   python main.py
-   ```
-
-### System Status
-
-✅ **Server Running**: http://localhost:8000
-✅ **API Documentation**: http://localhost:8000/docs
-✅ **Health Check**: http://localhost:8000/health
-✅ **System Status**: http://localhost:8000/status
-
-## 📊 System Architecture
-
-```
-┌─────────────────┐    ┌─────────────────┐
-│   Future        │    │    FastAPI      │
-│   Dashboard     │◄──►│    Server       │
-│  (Streamlit)    │    │  (WebSocket)    │
-└─────────────────┘    └─────────────────┘
-                                │
-                       ┌─────────────────┐
-                       │   MAESTRO       │
-                       │ (Orchestrator)  │
-                       └─────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────┐
-        │                       │                       │
-┌─────────────┐        ┌─────────────┐        ┌─────────────┐
-│  ARCHITECT  │        │    SCOUT    │        │ LOREWEAVER  │
-│(Strategist) │        │(Prospector) │        │   (Bard)    │
-└─────────────┘        └─────────────┘        └─────────────┘
-        │                       │                       │
-        └───────────────────────┼───────────────────────┘
-                                │
-                    ┌─────────────────┐
-                    │   SQLite DB     │
-                    │  (data/ folder) │
-                    └─────────────────┘
+### 1. Environment Setup
+```bash
+cd Project-Chimera-Dev
+.\chimera_env\Scripts\activate  # Use existing virtual environment
 ```
 
-## 🎮 Usage & Testing
+### 2. Configuration
+```bash
+# Copy and edit environment configuration
+copy .env.template .env
+# Edit .env with your API keys and settings
+```
 
-### API Endpoints
+### 3. Start Services
+```bash
+# Terminal 1: Main API Server
+uvicorn main:app --host 0.0.0.0 --port 8000
 
-- **GET /** - System information page
-- **GET /health** - Health check endpoint
-- **GET /status** - Current system status with metrics
-- **POST /mission/create** - Create new mission briefing
-- **GET /missions** - List all missions
-- **GET /leads** - List all leads
-- **POST /test/log** - Test log broadcasting
-- **WS /ws/logs** - WebSocket for real-time log streaming
+# Terminal 2: Dashboard  
+streamlit run dashboard.py --server.port 8501
+```
 
-### Testing the System
+### 4. Access Points
+- **Main Application**: http://localhost:8000
+- **API Documentation**: http://localhost:8000/docs
+- **Dashboard**: http://localhost:8501
+- **Health Check**: http://localhost:8000/health
+- **Metrics**: http://localhost:8000/metrics
 
-1. **Health Check**
-   ```bash
-   curl http://localhost:8000/health
-   ```
+### 5. Admin Access
+- **Username**: admin
+- **Password**: ChimeraAdmin123!
 
-2. **System Status**
-   ```bash
-   curl http://localhost:8000/status
-   ```
+## 📁 Project Structure
 
-3. **Create a Mission**
-   ```bash
-   curl -X POST "http://localhost:8000/mission/create" \
-        -H "Content-Type: application/json" \
-        -d '{
-          "business_goal": "Generate leads for luxury real estate",
-          "target_audience": "High-net-worth individuals",
-          "brand_voice": "Professional",
-          "service_offerings": ["Luxury home sales", "Investment properties"],
-          "contact_info": {"email": "agent@realestate.com", "phone": "555-0123"}
-        }'
-   ```
-
-## 🗄️ Database Schema
-
-### Core Tables (Implemented)
-
-- **mission_briefings**: Store mission parameters and goals
-- **leads**: Discovered and qualified prospects
-- **agent_activities**: Agent execution logs and performance metrics
-
-### Database Location
-- **File**: `data/chimera_local.db`
-- **Type**: SQLite with async support
-- **Auto-created**: On first system startup
-
-## 🔧 Development Reference
-
-### Project Structure
 ```
 Project-Chimera-Dev/
-├── agents/                 # The 10 autonomous agents
-│   ├── __init__.py        # Agent package initialization
-│   ├── base_agent.py      # Base agent class with job queue system
-│   └── orchestrator.py    # MAESTRO - Central orchestrator
-├── database/
-│   ├── __init__.py
-│   └── db_manager.py      # Async SQLite database operations
-├── utils/
-│   ├── __init__.py
-│   └── logger.py          # Centralized logging system
-├── data/                  # SQLite database storage (auto-created)
-├── logs/                  # Log files (auto-created)
-├── chimera_env/           # Python virtual environment
-├── main.py               # FastAPI server (RUNNING)
-├── requirements.txt      # Dependencies (INSTALLED)
-└── README.md            # This documentation
+├── 🔧 Backend/                    # Backend Services & API
+│   ├── 🤖 agents/                 # The Ten Specialized Agents
+│   ├── 🔐 auth/                   # Enterprise Authentication
+│   ├── ⚙️ config/                 # Configuration Management
+│   ├── 🗄️ database/               # Database Operations
+│   ├── 📊 monitoring/             # Health & Metrics
+│   ├── 🏢 tenants/                # Multi-Tenant Architecture
+│   ├── 🛠️ tools/                  # Email & Memory Services
+│   ├── 🔧 utils/                  # Error Handling & Utilities
+│   ├── 🐳 docker/                 # Production Deployment
+│   ├── 📁 data/                   # Data Storage
+│   ├── 📝 logs/                   # Runtime Logs
+│   ├── 🚀 main.py                 # FastAPI Application
+│   ├── 🔧 setup_admin.py          # Admin Setup
+│   ├── 📋 requirements.txt        # Dependencies
+│   └── 📖 README.md               # Backend Documentation
+├── 🎨 Frontend/                   # Modern UI Interface
+│   ├── 📄 templates/              # HTML Templates
+│   │   ├── dashboard.html         # Main Dashboard
+│   │   ├── login.html             # Authentication Page
+│   │   ├── agents.html            # Agent Management
+│   │   ├── system-status.html     # System Monitoring
+│   │   ├── analytics.html         # Business Analytics
+│   │   ├── missions.html          # Mission Control
+│   │   ├── llm-config.html        # LLM Configuration
+│   │   └── error-handler.html     # Error Management
+│   ├── 🎨 static/                 # CSS & JavaScript
+│   │   ├── css/                   # Design System
+│   │   └── js/                    # Interactive Features
+│   ├── 📊 dashboard.py            # Streamlit Redirect
+│   └── 📖 README.md               # Frontend Documentation
+└── 📖 README.md                   # Main Documentation
 ```
 
-### Key Components Status
+## 🔧 Key Features
 
-| Component | Status | Description |
-|-----------|--------|-------------|
-| FastAPI Server | ✅ Running | Main API server with WebSocket support |
-| Database Manager | ✅ Active | Async SQLite operations |
-| MAESTRO Agent | ✅ Initialized | Central orchestrator ready |
-| Logging System | ✅ Active | Structured logging to files and console |
-| Mission System | ✅ Functional | Can create and manage missions |
-| Agent Framework | ✅ Ready | Base classes for all 10 agents |
+### Enterprise Features
+- ✅ **Multi-Tenant Architecture** - Complete tenant isolation
+- ✅ **Enterprise Security** - JWT, rate limiting, CORS, input validation
+- ✅ **Production Deployment** - Docker, Nginx, PostgreSQL
+- ✅ **Comprehensive Monitoring** - Health checks, Prometheus metrics
+- ✅ **Error Handling** - Automated error detection and recovery
+- ✅ **Audit Logging** - Complete operation tracking
 
-### Development Notes
+### Core Capabilities
+- ✅ **Autonomous Lead Generation** - Web scraping with Playwright
+- ✅ **Email Automation** - Google OAuth2 integration
+- ✅ **Content Generation** - AI-powered content creation
+- ✅ **Deal Management** - Complete sales pipeline
+- ✅ **Project Fulfillment** - Internal and external delivery
+- ✅ **Real-time Dashboard** - Live system monitoring
 
-- **Agent Pattern**: All agents inherit from `BaseAgent` with async job processing
-- **Database**: Uses aiosqlite for async operations with proper connection management
-- **Logging**: Centralized through `ChimeraLogger` with structured output
-- **Error Handling**: Comprehensive try/catch blocks with proper cleanup
-- **State Management**: Mission states tracked through orchestrator
+## 🌐 API Endpoints
 
-## 🚦 Current Capabilities
+### Authentication
+- `POST /auth/login` - User authentication
+- `POST /auth/register` - User registration
+- `GET /auth/me` - Current user info
 
-### ✅ Working Features
-- System startup and initialization
-- Database creation and management
-- Mission briefing creation and storage
-- Agent activity logging
-- Real-time system status monitoring
-- WebSocket log streaming (ready for dashboard)
-- RESTful API with auto-documentation
+### Mission Management
+- `POST /mission/create` - Create mission briefing
+- `GET /missions` - List missions
 
-### 🔄 Next Development Steps
-1. **Dashboard Creation**: Streamlit interface for monitoring
-2. **Agent Implementation**: Full logic for all 10 agents
-3. **LLM Integration**: Add AI capabilities to agents
-4. **Web Scraping**: Implement lead discovery
-5. **Email Integration**: Add communication capabilities
+### Lead Operations
+- `GET /leads` - List generated leads
+- `POST /agent/prospector/search` - Trigger lead search
 
-## 📧 Phase 3: The Outreach & Memory Engine - COMPLETED ✅
+### Communication
+- `GET /conversations` - List conversations
+- `POST /outreach/trigger` - Trigger outreach
 
-Phase 3 introduces automated email outreach and conversation management with advanced memory capabilities.
+### Content & Fulfillment
+- `GET /content/calendar` - Content calendar
+- `POST /fulfillment/external` - External fulfillment
+- `POST /fulfillment/internal` - Internal fulfillment
 
-### ✅ Completed Features
+### System Monitoring
+- `GET /health` - Basic health check
+- `GET /health/detailed` - Detailed system status
+- `GET /metrics` - Prometheus metrics
 
-#### Email Service Integration
-- **Google OAuth2**: Secure Gmail API integration with refresh token management
-- **Email Polling**: Automatic monitoring for new messages every 5 minutes (configurable)
-- **Smart Matching**: Links incoming emails to existing leads automatically
-- **Draft Management**: Creates email drafts for manual review before sending
+## 🐳 Production Deployment
 
-#### Memory Bank (ChromaDB)
-- **Vector Storage**: Conversation history stored in ChromaDB for semantic search
-- **Lead Collections**: Individual conversation collections per lead
-- **RAG Retrieval**: Relevant conversation context retrieved for response generation
-- **Conversation Analytics**: Summary statistics and search capabilities
+### Docker Deployment
+```bash
+# Build and start all services
+docker-compose up -d
 
-#### Communicator Agent (HERALD)
-- **Personalized Outreach**: LLM-generated first-touch emails using lead and mission context
-- **Brand Voice Consistency**: Maintains specified brand voice across all communications
-- **Non-Spammy Content**: Professional, researched, and value-focused messaging
-- **Bulk Operations**: Can trigger outreach for all new leads or individual leads
+# Or use the deployment script
+./deploy.sh -e production
+```
 
-#### Closer Agent (DIPLOMAT)
-- **RAG-Powered Responses**: Uses conversation history and lead context for intelligent replies
-- **Intent Analysis**: Analyzes incoming messages for questions, objections, or interest
-- **Objection Handling**: Specialized responses for common sales objections
-- **Deal Progression**: Moves conversations toward positive outcomes
+## 📊 Monitoring & Health
 
-#### Enhanced Dashboard
-- **Email Controls**: Start/stop polling, trigger outreach, monitor status
-- **Conversation View**: Real-time conversation monitoring with filtering
-- **Email Metrics**: Incoming/outgoing message counts, unread tracking
-- **Lead Management**: Individual outreach controls and conversation history
+- **Health Endpoint**: `/health` - Basic system status
+- **Detailed Health**: `/health/detailed` - Comprehensive checks
+- **Metrics**: `/metrics` - Prometheus format metrics
+- **Dashboard**: Real-time system monitoring via Streamlit
 
-#### API Endpoints
-- `POST /email/start_polling` - Start email monitoring
-- `POST /email/stop_polling` - Stop email monitoring
-- `GET /conversations` - Get all conversations
-- `GET /conversations/lead/{lead_id}` - Get lead-specific conversations
-- `POST /outreach/trigger` - Trigger bulk outreach
-- `POST /lead/{lead_id}/draft_outreach` - Draft individual outreach
-- `GET /system/status/detailed` - Comprehensive system metrics
+## 🔐 Security Features
 
-### Database Schema Updates
-- **conversations table**: Complete email tracking with metadata
-- **Lead status tracking**: Updated statuses (new → contacted → engaged → negotiating)
-- **Foreign key relationships**: Proper data integrity between leads and conversations
+- JWT-based authentication with refresh tokens
+- Rate limiting and DDoS protection
+- CORS configuration
+- Input validation and sanitization
+- Secure password hashing with bcrypt
+- Multi-tenant data isolation
 
-### Technical Achievements
-- **Async Operations**: All email and memory operations are fully asynchronous
-- **Error Handling**: Comprehensive error handling with fallback responses
-- **Security**: OAuth2 tokens stored securely, no hardcoded credentials
-- **Scalability**: Vector database can handle large conversation volumes
-- **Testing**: Comprehensive test suite validates all Phase 3 functionality
+## 📈 Development Status
 
-### Workflow Integration
-1. **Lead Discovery** (Phase 2) → **Outreach Generation** (Phase 3)
-2. **Email Monitoring** → **Conversation Storage** → **Response Generation**
-3. **Memory Retrieval** → **Context-Aware Responses** → **Deal Progression**
-
-## 🔮 Phase 4 Preparation
-
-Phase 3 provides the foundation for Phase 4 fulfillment automation:
-
-- **Conversation Memory**: Complete interaction history for context
-- **Lead Qualification**: Conversation analysis determines readiness
-- **Deal Status Tracking**: Clear progression from contact to close
-- **Content Generation**: Proven LLM integration for deliverable creation
-
-## 📝 Development Log
-
-**Phase 1 Completed**: January 2025
-- ✅ Core infrastructure established
-- ✅ All 10 agent skeletons created
-- ✅ Database system operational
-- ✅ API server running and tested
-- ✅ Logging and monitoring active
-- ✅ Mission management functional
+- ✅ **Phase 1**: Core infrastructure and agent framework
+- ✅ **Phase 2**: Lead generation with browser automation
+- ✅ **Phase 3**: Email communication and memory system
+- ✅ **Phase 4**: Content generation and fulfillment
+- ✅ **Phase 5**: Error handling and self-correction
+- ✅ **Enterprise**: Production deployment and monitoring
 
 ---
 
-**Project Chimera Phase 1**: Foundation complete. Ready for autonomous agent development. 🤖🏗️
+**Project Chimera Enterprise** - Autonomous Business Operations Platform
+*Ready for production deployment and enterprise use*

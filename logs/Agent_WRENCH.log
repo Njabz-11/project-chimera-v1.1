@@ -1,8 +1,0 @@
-2025-07-12 18:29:42 | Agent.WRENCH | INFO | 🤖 Initializing WRENCH agent... | D:\Augment code projects\Project-Chimera-Dev\agents\base_agent.py:59
-2025-07-12 18:29:42 | Agent.WRENCH | INFO | ✅ WRENCH agent ready for operations | D:\Augment code projects\Project-Chimera-Dev\agents\base_agent.py:71
-2025-07-12 18:29:42 | Agent.WRENCH | WARNING | ⚠️ Docker not available, sandboxed execution disabled: Error while fetching server API version: Not supported URL scheme http+docker | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:55
-2025-07-12 18:29:42 | Agent.WRENCH | INFO | 🔧 WRENCH technician agent initialized and ready | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:58
-2025-07-12 18:29:42 | Agent.WRENCH | INFO | 🔍 Diagnosing error report 082c5ac7-13c9-42d8-aedb-edbdf7f1cc76 from TEST_AGENT | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:110
-2025-07-12 18:29:42 | Agent.WRENCH | ERROR | Failed to analyze error repairability: Expecting value: line 1 column 1 (char 0) | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:393
-2025-07-12 18:29:42 | Agent.WRENCH | ERROR | Failed to generate code fix: Expecting value: line 1 column 1 (char 0) | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:485
-2025-07-12 18:29:42 | Agent.WRENCH | WARNING | 🚨 Escalated error 8f5b3fa4-aff8-4a0b-a43d-a6a6cc37bbca to human intervention: Test escalation | D:\Augment code projects\Project-Chimera-Dev\agents\technician.py:309

@@ -1,0 +1,233 @@
+2025-07-11 22:18:21 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:263
+2025-07-12 09:59:28 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:309
+2025-07-12 10:03:14 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:309
+2025-07-12 11:41:55 | __main__ | INFO | 🚀 Starting Phase 3 comprehensive testing... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:296
+2025-07-12 11:41:55 | __main__ | INFO | 🧪 Setting up Phase 3 test environment... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:36
+2025-07-12 11:41:57 | __main__ | INFO | ✅ Test environment setup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:49
+2025-07-12 11:41:57 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:309
+2025-07-12 11:41:57 | __main__ | INFO | Running: Database Schema | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:310
+2025-07-12 11:41:57 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:311
+2025-07-12 11:41:57 | __main__ | INFO | 🧪 Testing database schema... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:53
+2025-07-12 11:41:57 | __main__ | INFO | ✅ Conversations table exists | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:65
+2025-07-12 11:41:57 | __main__ | ERROR | Database schema test failed: FOREIGN KEY constraint failed | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:99
+2025-07-12 11:41:57 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:309
+2025-07-12 11:41:57 | __main__ | INFO | Running: Memory Bank | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:310
+2025-07-12 11:41:57 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:311
+2025-07-12 11:41:57 | __main__ | INFO | 🧪 Testing memory bank... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:104
+2025-07-12 11:42:54 | __main__ | INFO | ✅ Retrieved 1 messages from memory bank | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:131
+2025-07-12 11:42:54 | __main__ | INFO | ✅ Search found 1 relevant messages | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:136
+2025-07-12 11:42:54 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:309
+2025-07-12 11:42:54 | __main__ | INFO | Running: Communicator Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:310
+2025-07-12 11:42:54 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:311
+2025-07-12 11:42:54 | __main__ | INFO | 🧪 Testing Communicator Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:153
+2025-07-12 11:42:54 | __main__ | INFO | ✅ Created test mission and lead data | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:292
+2025-07-12 11:42:55 | __main__ | INFO | ✅ Communicator agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:175
+2025-07-12 11:42:55 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:309
+2025-07-12 11:42:55 | __main__ | INFO | Running: Closer Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:310
+2025-07-12 11:42:55 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:311
+2025-07-12 11:42:55 | __main__ | INFO | 🧪 Testing Closer Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:189
+2025-07-12 11:42:55 | __main__ | INFO | ✅ Closer agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:216
+2025-07-12 11:42:55 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:309
+2025-07-12 11:42:55 | __main__ | INFO | Running: Orchestrator Integration | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:310
+2025-07-12 11:42:55 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:311
+2025-07-12 11:42:55 | __main__ | INFO | 🧪 Testing Orchestrator integration... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:230
+2025-07-12 11:42:55 | __main__ | INFO | ✅ Submitted job 1612e50b-b711-4fdf-9423-92688fc115ad to HERALD | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:245
+2025-07-12 11:42:55 | __main__ | INFO | ✅ System status includes email metrics | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:250
+2025-07-12 11:42:55 | __main__ | INFO | 
+============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:327
+2025-07-12 11:42:55 | __main__ | INFO | 🧪 PHASE 3 TEST RESULTS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:328
+2025-07-12 11:42:55 | __main__ | INFO | ============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:329
+2025-07-12 11:42:55 | __main__ | INFO | Database Schema: ❌ FAIL - FOREIGN KEY constraint failed | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:42:55 | __main__ | INFO | Memory Bank: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:42:55 | __main__ | INFO | Communicator Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:42:55 | __main__ | INFO | Closer Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:42:55 | __main__ | INFO | Orchestrator Integration: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:42:55 | __main__ | INFO | 
+📊 Summary: 4/5 tests passed | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:337
+2025-07-12 11:42:55 | __main__ | WARNING | ⚠️ Some tests failed. Review logs and fix issues before proceeding. | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:342
+2025-07-12 11:42:55 | __main__ | INFO | ✅ Test cleanup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:349
+2025-07-12 11:45:14 | __main__ | INFO | 🚀 Starting Phase 3 comprehensive testing... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:299
+2025-07-12 11:45:14 | __main__ | INFO | 🧪 Setting up Phase 3 test environment... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:36
+2025-07-12 11:45:14 | __main__ | INFO | ✅ Test environment setup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:49
+2025-07-12 11:45:14 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:312
+2025-07-12 11:45:14 | __main__ | INFO | Running: Database Schema | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:313
+2025-07-12 11:45:14 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:314
+2025-07-12 11:45:14 | __main__ | INFO | 🧪 Testing database schema... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:53
+2025-07-12 11:45:14 | __main__ | INFO | ✅ Conversations table exists | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:65
+2025-07-12 11:45:14 | __main__ | INFO | ✅ Created test mission and lead data | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:295
+2025-07-12 11:45:14 | __main__ | INFO | ✅ Created test conversation 1 | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:86
+2025-07-12 11:45:14 | __main__ | INFO | ✅ Retrieved conversations by lead | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:91
+2025-07-12 11:45:14 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:312
+2025-07-12 11:45:14 | __main__ | INFO | Running: Memory Bank | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:313
+2025-07-12 11:45:14 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:314
+2025-07-12 11:45:14 | __main__ | INFO | 🧪 Testing memory bank... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:107
+2025-07-12 11:45:14 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:312
+2025-07-12 11:45:14 | __main__ | INFO | Running: Communicator Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:313
+2025-07-12 11:45:14 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:314
+2025-07-12 11:45:14 | __main__ | INFO | 🧪 Testing Communicator Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:156
+2025-07-12 11:45:15 | __main__ | INFO | ✅ Created test mission and lead data | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:295
+2025-07-12 11:45:15 | __main__ | INFO | ✅ Communicator agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:178
+2025-07-12 11:45:15 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:312
+2025-07-12 11:45:15 | __main__ | INFO | Running: Closer Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:313
+2025-07-12 11:45:15 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:314
+2025-07-12 11:45:15 | __main__ | INFO | 🧪 Testing Closer Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:192
+2025-07-12 11:45:15 | __main__ | INFO | ✅ Closer agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:219
+2025-07-12 11:45:15 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:312
+2025-07-12 11:45:15 | __main__ | INFO | Running: Orchestrator Integration | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:313
+2025-07-12 11:45:15 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:314
+2025-07-12 11:45:15 | __main__ | INFO | 🧪 Testing Orchestrator integration... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:233
+2025-07-12 11:45:15 | __main__ | INFO | ✅ Submitted job c2796adb-2964-4816-a131-a01f1f8a69a1 to HERALD | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:248
+2025-07-12 11:45:15 | __main__ | INFO | ✅ System status includes email metrics | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:253
+2025-07-12 11:45:15 | __main__ | INFO | 
+============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:330
+2025-07-12 11:45:15 | __main__ | INFO | 🧪 PHASE 3 TEST RESULTS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:331
+2025-07-12 11:45:15 | __main__ | INFO | ============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:332
+2025-07-12 11:45:15 | __main__ | INFO | Database Schema: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:335
+2025-07-12 11:45:15 | __main__ | INFO | Memory Bank: ❌ FAIL - Could not create collection | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:335
+2025-07-12 11:45:15 | __main__ | INFO | Communicator Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:335
+2025-07-12 11:45:15 | __main__ | INFO | Closer Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:335
+2025-07-12 11:45:15 | __main__ | INFO | Orchestrator Integration: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:335
+2025-07-12 11:45:15 | __main__ | INFO | 
+📊 Summary: 4/5 tests passed | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:340
+2025-07-12 11:45:15 | __main__ | WARNING | ⚠️ Some tests failed. Review logs and fix issues before proceeding. | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:345
+2025-07-12 11:45:15 | __main__ | INFO | ✅ Test cleanup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:352
+2025-07-12 11:47:30 | __main__ | INFO | 🚀 Starting Phase 3 comprehensive testing... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:308
+2025-07-12 11:47:30 | __main__ | INFO | 🧪 Setting up Phase 3 test environment... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:36
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Test environment setup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:49
+2025-07-12 11:47:30 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:321
+2025-07-12 11:47:30 | __main__ | INFO | Running: Database Schema | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:322
+2025-07-12 11:47:30 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:323
+2025-07-12 11:47:30 | __main__ | INFO | 🧪 Testing database schema... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:53
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Conversations table exists | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:65
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Created test mission and lead data | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:304
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Created test conversation 2 | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:86
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Retrieved conversations by lead | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:91
+2025-07-12 11:47:30 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:321
+2025-07-12 11:47:30 | __main__ | INFO | Running: Memory Bank | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:322
+2025-07-12 11:47:30 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:323
+2025-07-12 11:47:30 | __main__ | INFO | 🧪 Testing memory bank... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:107
+2025-07-12 11:47:30 | __main__ | INFO | ✅ Using existing collection for lead 999 | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:117
+2025-07-12 11:47:32 | __main__ | INFO | ✅ Retrieved 2 messages from memory bank | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:143
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Search found 2 relevant messages | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:148
+2025-07-12 11:47:33 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:321
+2025-07-12 11:47:33 | __main__ | INFO | Running: Communicator Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:322
+2025-07-12 11:47:33 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:323
+2025-07-12 11:47:33 | __main__ | INFO | 🧪 Testing Communicator Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:165
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Created test mission and lead data | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:304
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Communicator agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:187
+2025-07-12 11:47:33 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:321
+2025-07-12 11:47:33 | __main__ | INFO | Running: Closer Agent | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:322
+2025-07-12 11:47:33 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:323
+2025-07-12 11:47:33 | __main__ | INFO | 🧪 Testing Closer Agent... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:201
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Closer agent executed job | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:228
+2025-07-12 11:47:33 | __main__ | INFO | 
+================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:321
+2025-07-12 11:47:33 | __main__ | INFO | Running: Orchestrator Integration | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:322
+2025-07-12 11:47:33 | __main__ | INFO | ================================================== | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:323
+2025-07-12 11:47:33 | __main__ | INFO | 🧪 Testing Orchestrator integration... | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:242
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Submitted job 2c5c223b-9d81-4d98-9497-7a552ce0bb14 to HERALD | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:257
+2025-07-12 11:47:33 | __main__ | INFO | ✅ System status includes email metrics | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:262
+2025-07-12 11:47:33 | __main__ | INFO | 
+============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:339
+2025-07-12 11:47:33 | __main__ | INFO | 🧪 PHASE 3 TEST RESULTS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:340
+2025-07-12 11:47:33 | __main__ | INFO | ============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:341
+2025-07-12 11:47:33 | __main__ | INFO | Database Schema: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:344
+2025-07-12 11:47:33 | __main__ | INFO | Memory Bank: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:344
+2025-07-12 11:47:33 | __main__ | INFO | Communicator Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:344
+2025-07-12 11:47:33 | __main__ | INFO | Closer Agent: ✅ PASS (Structure) | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:344
+2025-07-12 11:47:33 | __main__ | INFO | Orchestrator Integration: ✅ PASS | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:344
+2025-07-12 11:47:33 | __main__ | INFO | 
+📊 Summary: 5/5 tests passed | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:349
+2025-07-12 11:47:33 | __main__ | INFO | 🎉 All Phase 3 tests PASSED! System ready for production. | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:352
+2025-07-12 11:47:33 | __main__ | INFO | ✅ Test cleanup complete | D:\Augment code projects\Project-Chimera-Dev\test_phase3.py:361
+2025-07-12 11:54:05 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 11:54:45 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 11:56:08 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 11:56:47 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 12:00:00 | __main__ | INFO | 🚀 Starting Project Chimera on 127.0.0.1:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 12:00:39 | __main__ | INFO | 🚀 Starting Project Chimera on 127.0.0.1:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:416
+2025-07-12 14:04:03 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:571
+2025-07-12 14:04:42 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:571
+2025-07-12 14:05:59 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:571
+2025-07-12 14:07:29 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\main.py:571
+2025-07-12 18:29:42 | __main__ | INFO | 🔧 Initializing Phase 5 test environment... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:37
+2025-07-12 18:29:42 | __main__ | INFO | ✅ Phase 5 test environment initialized | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:50
+2025-07-12 18:29:42 | __main__ | INFO | 🚀 Starting Phase 5 comprehensive testing... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:54
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_error_handler_creation... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_handler_creation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_error_classification... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | Classified ValueError: validation_error (low) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:143
+2025-07-12 18:29:42 | __main__ | INFO | Classified ConnectionError: network_error (medium) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:143
+2025-07-12 18:29:42 | __main__ | INFO | Classified Exception: llm_error (high) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:143
+2025-07-12 18:29:42 | __main__ | INFO | Classified Exception: browser_error (medium) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:143
+2025-07-12 18:29:42 | __main__ | INFO | Classified Exception: database_error (high) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:143
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_classification: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_error_routing... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | Error routed with strategy: retry_with_backoff | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:176
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_routing: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_sandbox_execution... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | WARNING | Sandbox not available, skipping test | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:187
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_sandbox_execution: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_technician_diagnosis... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | Diagnosis result: {'report_id': '082c5ac7-13c9-42d8-aedb-edbdf7f1cc76', 'diagnosis': {'auto_repairable': False, 'confidence': 0.0, 'repair_strategy': 'Analysis failed', 'risk_assessment': 'high', 'complexity': 'complex', 'reasoning': 'Analysis failed due to: Expecting value: line 1 column 1 (char 0)'}, 'auto_repairable': False, 'confidence': 0.0} | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:247
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_technician_diagnosis: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_code_fix_generation... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | WARNING | No fix generated (LLM may not be available) | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:289
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_code_fix_generation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_fix_validation... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | WARNING | Sandbox not available, skipping validation test | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:299
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_fix_validation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_error_escalation... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_escalation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_integration_with_agents... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_integration_with_agents: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 🧪 Running test_dashboard_endpoints... | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:71
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_dashboard_endpoints: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:78
+2025-07-12 18:29:42 | __main__ | INFO | 
+============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:424
+2025-07-12 18:29:42 | __main__ | INFO | 🔧 PHASE 5 RESILIENCE ENGINE TEST SUMMARY | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:425
+2025-07-12 18:29:42 | __main__ | INFO | ============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:426
+2025-07-12 18:29:42 | __main__ | INFO | 📊 Total Tests: 10 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:433
+2025-07-12 18:29:42 | __main__ | INFO | ✅ Passed: 10 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:434
+2025-07-12 18:29:42 | __main__ | INFO | ❌ Failed: 0 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:435
+2025-07-12 18:29:42 | __main__ | INFO | 💥 Errors: 0 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:436
+2025-07-12 18:29:42 | __main__ | INFO | 📈 Success Rate: 100.0% | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:437
+2025-07-12 18:29:42 | __main__ | INFO | 
+📋 Detailed Results: | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:439
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_handler_creation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_classification: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_routing: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_sandbox_execution: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_technician_diagnosis: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_code_fix_generation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_fix_validation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_error_escalation: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_integration_with_agents: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | ✅ test_dashboard_endpoints: PASSED | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:442
+2025-07-12 18:29:42 | __main__ | INFO | 
+📊 System Statistics: | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:447
+2025-07-12 18:29:42 | __main__ | INFO | Total Errors Processed: 5 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:449
+2025-07-12 18:29:42 | __main__ | INFO | Resolved Errors: 0 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:450
+2025-07-12 18:29:42 | __main__ | INFO | Escalated Errors: 1 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:451
+2025-07-12 18:29:42 | __main__ | INFO | Sandbox Available: False | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:454
+2025-07-12 18:29:42 | __main__ | INFO | Max Fix Attempts: 3 | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:455
+2025-07-12 18:29:42 | __main__ | INFO | 
+🎯 PHASE 5 RESILIENCE ENGINE TESTING COMPLETE! | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:457
+2025-07-12 18:29:42 | __main__ | INFO | ============================================================ | D:\Augment code projects\Project-Chimera-Dev\test_phase5.py:458
+2025-07-14 22:18:32 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\Backend\main.py:1305
+2025-07-14 22:40:40 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\Backend\main.py:1305
+2025-07-15 14:15:00 | __main__ | INFO | 🚀 Starting Project Chimera on 0.0.0.0:8000 | D:\Augment code projects\Project-Chimera-Dev\Backend\main.py:1347

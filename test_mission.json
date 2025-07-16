@@ -1,0 +1,11 @@
+{
+  "business_goal": "Generate leads for our AI consulting services",
+  "target_audience": "Small to medium businesses looking to implement AI solutions",
+  "brand_voice": "professional",
+  "service_offerings": ["AI Strategy Consulting", "Machine Learning Implementation", "Data Analytics"],
+  "contact_info": {
+    "email": "contact@aicompany.com",
+    "phone": "+1-555-123-4567",
+    "company": "AI Solutions Inc"
+  }
+}
